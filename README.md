@@ -8,6 +8,10 @@ advantage of if desired.
 
 Note: this script will only return machines that are in "Deployed" status.
 
+## Requirement
+- Install python-pip: `apt-get update; apt-get install -y python-pip; pip install --upgrade pip`
+- Install essential pip packages: `pip install requests oauth`
+
 ## Usage
 - Get MAAS_API_URL: `./maas-login.sh`
 - Get MAAS_API_KEY: `cat /tmp/api_key`
