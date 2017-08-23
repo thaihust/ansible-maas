@@ -1,0 +1,2 @@
+export MAAS_API_URL=http://localhost:5240/MAAS/api/2.0
+export MAAS_API_KEY=p43bV6VxfF53rDQLvK:LbWvg8fLCnv8eFzx92:7Leu7QSgCRcwXfYf45SLpBNpGMS72UYT

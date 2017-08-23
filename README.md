@@ -9,7 +9,8 @@ advantage of if desired.
 Note: this script will only return machines that are in "Deployed" status.
 
 ## Usage
-
+- Get MAAS_API_URL: `./maas-login.sh`
+- Get MAAS_API_KEY: `cat /tmp/api_key`
 - Replace Ansible's hosts file in the correct directory, e.g. `/etc/ansible/hosts`
-- Set environment variables `MAAS_API_URL` and `MAAS_API_KEY`
+- Set environment variables `MAAS_API_URL` and `MAAS_API_KEY`: `source maas-env`
 - Enjoy!
